@@ -1,6 +1,4 @@
-import React from "react";
-
-export function textAlign(textAlign = "left") {
+export function getTextAlign(textAlign = "left") {
   const textAlignMap = {
     left: "text-left",
     right: "text-right",
